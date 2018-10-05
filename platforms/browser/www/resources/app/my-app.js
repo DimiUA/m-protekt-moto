@@ -364,7 +364,7 @@ var virtualAssetList = App.virtualList('.assets_list', {
               '</li>',
 });
 
-$$('body').on('click', '.index-title', function(){
+/*$$('body').on('click', '.index-title', function(){
     //var payload = {};
     //console.log('')
     var payload = {
@@ -383,7 +383,7 @@ $$('body').on('click', '.index-title', function(){
     };
     //plus.push.createMessage("Welcome", payload, {cover:false} );
     showMsgNotification([payload]);
-});
+});*/
 
 
 $$('body').on('click', 'a.external', function(event) {
