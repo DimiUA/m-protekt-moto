@@ -363,7 +363,7 @@ var virtualAssetList = App.virtualList('.assets_list', {
                   '</div>' +              
               '</li>',
 });
-
+ 
 /*$$('body').on('click', '.index-title', function(){
     //var payload = {};
     //console.log('')
