@@ -22,6 +22,18 @@
         },
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.sino.mprotekt"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.moto.protekt"
+        },
+        "cordova-plugin-buildinfo": {
+            "PACKAGE_NAME": "com.moto.protekt"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.moto.protekt"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.moto.protekt"
         }
     },
     "dependent_plugins": {}
