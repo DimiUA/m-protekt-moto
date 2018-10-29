@@ -2743,7 +2743,7 @@ function processClickOnPushNotification(msgJ){
         }
 
         //console.log(msg);
-        if( msg && msg.alarm == 'Status' || msg.alarm == 'status' ){            
+        if( msg && msg.alarm && msg.alarm.toLowerCase() == 'status' ){        
             loadStatusPage(msg);                               
         }else if (msg && parseFloat(msg.lat) && parseFloat(msg.lat) || msg && parseFloat(msg.Lat) && parseFloat(msg.Lat)) { 
             
