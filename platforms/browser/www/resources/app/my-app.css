@@ -2,7 +2,7 @@
 body{
 	/* font-family: "Roboto-Regular"; */
 }
- 
+
 
 body.with-panel-left-reveal .panel-overlay{
 	opacity: 1;
@@ -695,7 +695,7 @@ body.with-panel-left-cover .panel-overlay{
 			/* color: #03a9f4; */
 		}
 		.position_data{
-			color: #2C8C91 !important;
+			color: #00A0D3 !important;
 		}
 		.position_bottom .address{
 			position: relative;
@@ -719,7 +719,6 @@ body.with-panel-left-cover .panel-overlay{
 		    -webkit-line-clamp: 3;
 		    -webkit-box-orient: vertical;
 		    display: -webkit-inline-box;
-		    font-size: 14px;
 		}
 		
 		.position_bottom .address:before {
@@ -731,7 +730,7 @@ body.with-panel-left-cover .panel-overlay{
 		    right: auto;
 		    height: 1px;
 		    width: 100%;
-		    background-color: #D8D8D8;
+		    background-color:#D8D8D8;
 		    display: block;
 		    z-index: 15;
 		    -webkit-transform-origin: 50% 0;
