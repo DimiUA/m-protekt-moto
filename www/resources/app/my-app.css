@@ -259,7 +259,7 @@ body.with-panel-left-cover .panel-overlay{
 				font-size: 16px;
 			}
 			.assets_list.list-block.media-list .item-link .item-subtitle.online{
-				color: #00A0D3;
+				color: #2C8C91;
 			}
 			.assets_list .item-media img{
 				width: 58px;
@@ -695,7 +695,7 @@ body.with-panel-left-cover .panel-overlay{
 			/* color: #03a9f4; */
 		}
 		.position_data{
-			color: #00A0D3 !important;
+			color: #2C8C91 !important;
 		}
 		.position_bottom .address{
 			position: relative;
