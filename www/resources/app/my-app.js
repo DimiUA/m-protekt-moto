@@ -830,6 +830,8 @@ App.onPageInit('asset', function(page) {
                 App.hidePreloader();                  
                 if(result.length > 0 || result.ERROR == "ARREARS"){
                     showNoCreditMessage();   
+                }else if(result.ERROR == "LOCKED"){
+                    showModalMessage(TargetAsset.IMEI, LANGUAGE.PROMPT_MSG054);
                 }else{ 
                     App.addNotification({
                         hold: 3000,                       
@@ -860,6 +862,8 @@ App.onPageInit('asset', function(page) {
                 App.hidePreloader();                 
                 if(result.length > 0 || result.ERROR == "ARREARS"){                       
                     showNoCreditMessage();   
+                }else if(result.ERROR == "LOCKED"){
+                    showModalMessage(TargetAsset.IMEI, LANGUAGE.PROMPT_MSG054);
                 }else{                
                    
                     App.addNotification({
@@ -2266,6 +2270,21 @@ function showNoCreditMessage(){
             },
         ]
     });             
+}
+
+function showModalMessage(header, body){
+    var modalTex = '<div class="color-red custom-modal-title">'+ header +'</div>' +
+                    '<div class="custom-modal-text">'+ body +'</div>';                            
+    App.modal({
+           title: '<img class="custom-modal-logo" src="resources/images/login_logo.png" alt=""/>',
+            text: modalTex,                                
+         buttons: [
+            {
+                text: LANGUAGE.COM_MSG31
+            },
+            
+        ]
+    });          
 }
 
 function loadPageAssetAlarm(){
