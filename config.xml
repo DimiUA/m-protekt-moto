@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget xmlns:cdv="http://cordova.apache.org/ns/1.0" id="com.moto.protekt" version="1.2.8" xmlns="http://www.w3.org/ns/widgets" defaultlocale="en-US" android-versionCode="46" ios-CFBundleVersion="46">
+<widget xmlns:cdv="http://cordova.apache.org/ns/1.0" id="com.moto.protekt" version="1.2.9" xmlns="http://www.w3.org/ns/widgets" defaultlocale="en-US" android-versionCode="47" ios-CFBundleVersion="47">
     <name>M-Protekt Moto</name>
     <description>
         M-Protekt Moto Helps you seamlessly locate motorbike or otherwise!
