@@ -1998,10 +1998,10 @@ function profileNewPwd(){
 function recharge(){
     var MinorToken = getUserinfo().MinorToken;
 
-    /*AUS*/
-    var button10  = 'KPF23R37HEJAC';
-    var button50  = 'QYHM382HALQBG';
-    var button100 = '7GB5ZBQQU5RAY';
+    /*QuikTrak buttons AUS*/
+    var button10  = 'WTEPHVZ7VLF7C';
+    var button50  = 'F5QPW8CA2USAE';
+    var button100 = '8SPGQTA6M3P84';
     var buttonCur = 'AUD';
 
     /*QuikTrak buttons*/
